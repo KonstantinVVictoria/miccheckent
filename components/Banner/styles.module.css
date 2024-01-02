@@ -1,0 +1,32 @@
+.main_container {
+  background-color: black;
+  box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 1);
+  overflow: hidden;
+}
+
+.video {
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.text_banner_section {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: black;
+}
+
+.text_banner_section > h2 {
+  font-size: 8vh;
+}
+
+.text_banner_section > p {
+  font-size: 6vh;
+}
+.image {
+  object-fit: cover;
+}

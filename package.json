@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ccomp": "node ./_scripts/ccom.js"
   },
   "dependencies": {
     "react": "^18",
